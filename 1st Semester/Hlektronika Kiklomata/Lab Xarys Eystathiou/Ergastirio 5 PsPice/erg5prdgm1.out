@@ -1,0 +1,60 @@
+
+**** 10/20/24 23:26:07 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\gakka\OneDrive - Cyprus University of Technology\Desktop\Everything\Studies\Hlektronika Kiklomata\Lab Xarys Eystathiou\Er
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Sun Oct 20 23:25:13 2024
+
+
+
+** Analysis setup **
+.DC LIN PARAM R2 0.1 10 1 
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "erg5prdgm1.net"
+
+**** INCLUDING erg5prdgm1.net ****
+* Schematics Netlist *
+
+
+
+V_V1         $N_0001 0 5
+R_R1         $N_0001 $N_0002  2.2k  
+R_R2         0 $N_0002  4.7k  
+
+**** RESUMING erg5prdgm1.cir ****
+.INC "erg5prdgm1.als"
+
+
+
+**** INCLUDING erg5prdgm1.als ****
+* Schematics Aliases *
+
+.ALIASES
+V_V1            V1(+=$N_0001 -=0 )
+R_R1            R1(1=$N_0001 2=$N_0002 )
+R_R2            R2(1=0 2=$N_0002 )
+.ENDALIASES
+
+
+**** RESUMING erg5prdgm1.cir ****
+.probe
+
+
+.END
+
+ERROR -- Undefined parameter: R2

@@ -1,0 +1,106 @@
+
+**** 10/21/24 14:11:28 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\gakka\OneDrive - Cyprus University of Technology\Desktop\Everything\Studies\Hlektronika Kiklomata\Lab Xarys Eystathiou\Pr
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Oct 21 14:11:24 2024
+
+
+.PARAM         R=10k 
+
+** Analysis setup **
+.DC LIN PARAM R 0.0001 7.1k 65 
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "erg7paradeigma.net"
+
+**** INCLUDING erg7paradeigma.net ****
+* Schematics Netlist *
+
+
+
+R_R1         $N_0002 $N_0001  470  
+V_VF         $N_0002 0 10v
+R_RF         0 $N_0001  {R}  
+
+**** RESUMING erg7paradeigma.cir ****
+.INC "erg7paradeigma.als"
+
+
+
+**** INCLUDING erg7paradeigma.als ****
+* Schematics Aliases *
+
+.ALIASES
+R_R1            R1(1=$N_0002 2=$N_0001 )
+V_VF            VF(+=$N_0002 -=0 )
+R_RF            RF(1=0 2=$N_0001 )
+.ENDALIASES
+
+
+**** RESUMING erg7paradeigma.cir ****
+.probe
+
+
+.END
+
+**** 10/21/24 14:11:28 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\gakka\OneDrive - Cyprus University of Technology\Desktop\Everything\Studies\Hlektronika Kiklomata\Lab Xarys Eystathiou\Pr
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)    9.5511                   ($N_0002)   10.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VF        -9.551E-04
+
+    TOTAL POWER DISSIPATION   9.55E-03  WATTS
+
+
+**** 10/21/24 14:11:28 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\gakka\OneDrive - Cyprus University of Technology\Desktop\Everything\Studies\Hlektronika Kiklomata\Lab Xarys Eystathiou\Pr
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            0.00
+

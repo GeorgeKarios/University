@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\.11\ex1\simulation\modelsim
+vex1
+I=P_BG:;LI^aWA=;b5_74c3
+V7NzTCzSNMQc4WiI>zMzAh3
+Z1 dE:\.11\ex1\simulation\modelsim
+w1739882816
+8E:/.11/ex1/ex1.v
+FE:/.11/ex1/ex1.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 TbV[`7IK5]6_DDl=<Pn6>2
+!s85 0
+!s108 1740405515.317000
+!s107 E:/.11/ex1/ex1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/.11/ex1|E:/.11/ex1/ex1.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/.11/ex1 -O0
+vex1_tb
+!i10b 1
+!s100 L1eh8_djjih5@O:N>cfDY2
+I`IO47X4GI]fZE<K2BK3mM0
+Va5LHme^k5_62GDYQgz@e53
+R1
+w1740405252
+8E:/.11/ex1/ex1_tb.v
+FE:/.11/ex1/ex1_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1740405515.581000
+!s107 E:/.11/ex1/ex1_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/.11/ex1|E:/.11/ex1/ex1_tb.v|
+!s101 -O0
+R3
+R4

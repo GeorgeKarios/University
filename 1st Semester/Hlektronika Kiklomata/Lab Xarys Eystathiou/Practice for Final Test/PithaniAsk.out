@@ -1,0 +1,112 @@
+
+**** 11/25/24 13:07:33 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\gakka\OneDrive - Cyprus University of Technology\Desktop\Everything\Panepistimiaka\Hlektronika Kiklomata\Lab Xarys Eystat
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Nov 25 13:07:29 2024
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "PithaniAsk.net"
+
+**** INCLUDING PithaniAsk.net ****
+* Schematics Netlist *
+
+
+
+V_V1         $N_0001 0 10v
+R_R1         $N_0001 $N_0002  500  
+R_R4         0 $N_0002  750  
+R_R2         $N_0002 $N_0003  800  
+R_900         $N_0001 $N_0003  1k  
+R_R3         0 $N_0003  600  
+
+**** RESUMING PithaniAsk.cir ****
+.INC "PithaniAsk.als"
+
+
+
+**** INCLUDING PithaniAsk.als ****
+* Schematics Aliases *
+
+.ALIASES
+V_V1            V1(+=$N_0001 -=0 )
+R_R1            R1(1=$N_0001 2=$N_0002 )
+R_R4            R4(1=0 2=$N_0002 )
+R_R2            R2(1=$N_0002 2=$N_0003 )
+R_900           900(1=$N_0001 2=$N_0003 )
+R_R3            R3(1=0 2=$N_0003 )
+.ENDALIASES
+
+
+**** RESUMING PithaniAsk.cir ****
+.probe
+
+
+.END
+
+**** 11/25/24 13:07:33 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\gakka\OneDrive - Cyprus University of Technology\Desktop\Everything\Panepistimiaka\Hlektronika Kiklomata\Lab Xarys Eystat
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)   10.0000                   ($N_0002)    5.5424                       
+
+($N_0003)    4.3220                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.459E-02
+
+    TOTAL POWER DISSIPATION   1.46E-01  WATTS
+
+
+**** 11/25/24 13:07:33 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\gakka\OneDrive - Cyprus University of Technology\Desktop\Everything\Panepistimiaka\Hlektronika Kiklomata\Lab Xarys Eystat
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            0.00
+

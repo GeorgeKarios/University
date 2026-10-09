@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+U:/2nd\ Semester/Psifiaki_logiki/team_n_lab6_4_3_2025/ex1 {U:/2nd Semester/Psifiaki_logiki/team_n_lab6_4_3_2025/ex1/modulo_k_counter.v}
+

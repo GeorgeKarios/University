@@ -1,0 +1,8 @@
+|ex1
+F <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst24.IN0
+B => inst25.IN1
+B => inst2.IN0
+
+

@@ -1,0 +1,7 @@
+module 3bit(updown,CLKP,QA,QB,QC);
+
+input updown,CLKP;
+output QA,QB,QC;
+
+wire tmp1
+ex1

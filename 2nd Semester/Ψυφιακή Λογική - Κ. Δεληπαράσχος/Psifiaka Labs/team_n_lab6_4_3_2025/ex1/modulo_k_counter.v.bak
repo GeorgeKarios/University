@@ -1,0 +1,21 @@
+module modulo_k(
+    input clk,       // Clock input
+    input reset,     // Reset input
+    output [2:0] q   // 3-bit output
+);
+
+reg [2:0] count;
+
+always @(posedge clk or posedge reset) begin
+    if (reset) begin
+        count <= 3'b000;    // Reset the count to 0
+    end else if (count == 3'b100) begin
+        count <= 3'b000;    // Reset the count when it reaches 5
+    end else begin
+        count <= count + 1; // Increment the count
+    end
+end
+
+assign q = count; // Assign the count value to the output
+
+endmodule

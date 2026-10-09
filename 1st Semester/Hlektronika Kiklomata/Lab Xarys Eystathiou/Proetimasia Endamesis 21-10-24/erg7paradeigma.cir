@@ -1,0 +1,24 @@
+* C:\Users\gakka\OneDrive - Cyprus University of Technology\Desktop\Everything\Studies\Hlektronika Kiklomata\Lab Xarys Eystathiou\Proetimasia Endamesis 21-10-24\erg7paradeigma.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Oct 21 14:11:24 2024
+
+
+.PARAM         R=10k 
+
+** Analysis setup **
+.DC LIN PARAM R 0.0001 7.1k 65 
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "erg7paradeigma.net"
+.INC "erg7paradeigma.als"
+
+
+.probe
+
+
+.END

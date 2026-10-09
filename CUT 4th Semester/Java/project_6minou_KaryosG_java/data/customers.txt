@@ -1,0 +1,8 @@
+Andreas Papadopoulos|ID1001|Nicosia|99112233|andreas@mail.com|4111111111111111|L001|180
+Maria Georgiou|ID1002|Limassol|99112234|maria@mail.com|4222222222222222|L002|90
+Christos Ioannou|ID1003|Larnaca|99112235|christos@mail.com|4333333333333333|L003|40
+Eleni Charalambous|ID1004|Paphos|99112236|eleni@mail.com|4444444444444444|L004|220
+Sotiris Nicolaou|ID1005|Famagusta|99112237|sotiris@mail.com|4555555555555555|L005|55
+Efraim|11445|Frenaros 11|99999999|efraim@mail.com|111111111111|L006|0
+Nikolas Parpareshis|1144|Frenaros|99999|parpareshis@emial.com|00000|L007|565
+Kirios Nomikos|111|Tepak|999|nomikos@email.com|000|L008|0

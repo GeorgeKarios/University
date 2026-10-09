@@ -1,0 +1,14 @@
+[package]
+name = "anorthosis-store"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "AnorthosisStore — a simple in-memory key-value store for the Advanced Systems Programming Lab (h_da WS25/26)."
+license = "MIT"
+
+[lib]
+name = "anorthosis_store"
+path = "src/lib.rs"
+
+[dependencies]
+crc32fast = "1.3"

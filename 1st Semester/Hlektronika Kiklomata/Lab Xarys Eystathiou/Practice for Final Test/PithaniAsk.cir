@@ -1,0 +1,22 @@
+* C:\Users\gakka\OneDrive - Cyprus University of Technology\Desktop\Everything\Panepistimiaka\Hlektronika Kiklomata\Lab Xarys Eystathiou\Practice for Final Test\PithaniAsk.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Nov 25 13:07:29 2024
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "PithaniAsk.net"
+.INC "PithaniAsk.als"
+
+
+.probe
+
+
+.END

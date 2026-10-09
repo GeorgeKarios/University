@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, U:/teamn_lab2/ex6/ex6.bdf
+source_file = 1, U:/teamn_lab2/ex6/Waveform.vwf
+source_file = 1, U:/teamn_lab2/ex6/db/ex6.cbx.xml
+design_name = ex6
+instance = comp, \pin_name1~I\, pin_name1, ex6, 1
+instance = comp, \pin_name2~I\, pin_name2, ex6, 1
+instance = comp, \pin_name3~I\, pin_name3, ex6, 1
+instance = comp, \pin_name4~I\, pin_name4, ex6, 1
+instance = comp, \pin_name5~I\, pin_name5, ex6, 1

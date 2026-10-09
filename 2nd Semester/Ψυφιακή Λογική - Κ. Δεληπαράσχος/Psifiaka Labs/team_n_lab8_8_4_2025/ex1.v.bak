@@ -1,0 +1,80 @@
+module myFSM(
+    input w,          // input signal
+    input clk,        // clock signal
+    input rst,        // reset signal
+    output reg z,     // output signal
+    output reg [8:0] state  // state outputs for monitoring LEDs
+);
+
+    // One-hot encoding for 9 states
+    reg [8:0] state_reg, next_state;
+
+    // Define states using one-hot encoding
+    parameter S0 = 9'b000000001, // Initial state
+              S1 = 9'b000000010, // 1 consecutive 1
+              S2 = 9'b000000100, // 2 consecutive 1's
+              S3 = 9'b000001000, // 3 consecutive 1's
+              S4 = 9'b000010000, // 4 consecutive 1's
+              S5 = 9'b000100000, // 1 consecutive 0
+              S6 = 9'b001000000, // 2 consecutive 0's
+              S7 = 9'b010000000, // 3 consecutive 0's
+              S8 = 9'b100000000; // 4 consecutive 0's
+
+    // State transition logic
+    always @(posedge clk or posedge rst) begin
+        if (rst)
+            state_reg <= S0;  // Reset to initial state
+        else
+            state_reg <= next_state;
+    end
+
+    // Next state and output logic
+    always @(*) begin
+        case(state_reg)
+            S0: begin
+                next_state = (w == 1) ? S1 : S5;  // Detecting first 1 or 0
+                z = 0;
+            end
+            S1: begin
+                next_state = (w == 1) ? S2 : S5;  // Detecting 1's or reset to 0's
+                z = 0;
+            end
+            S2: begin
+                next_state = (w == 1) ? S3 : S5;  // Detecting 1's or reset to 0's
+                z = 0;
+            end
+            S3: begin
+                next_state = (w == 1) ? S4 : S5;  // Detecting 1's or reset to 0's
+                z = 0;
+            end
+            S4: begin
+                next_state = (w == 1) ? S4 : S5;  // Continuous 1's or reset to 0's
+                z = 1;  // Output 1 when 4 consecutive 1's are detected
+            end
+            S5: begin
+                next_state = (w == 0) ? S6 : S1;  // Detecting 0's or reset to 1's
+                z = 0;
+            end
+            S6: begin
+                next_state = (w == 0) ? S7 : S1;  // Detecting 0's or reset to 1's
+                z = 0;
+            end
+            S7: begin
+                next_state = (w == 0) ? S8 : S1;  // Detecting 0's or reset to 1's
+                z = 0;
+            end
+            S8: begin
+                next_state = (w == 0) ? S8 : S1;  // Continuous 0's or reset to 1's
+                z = 1;  // Output 1 when 4 consecutive 0's are detected
+            end
+            default: begin
+                next_state = S0;
+                z = 0;
+            end
+        endcase
+    end
+
+    // Output the state for monitoring (connected to LEDs)
+    assign state = state_reg;
+
+endmodule

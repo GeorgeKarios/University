@@ -1,0 +1,28 @@
+`timescale 1ns / 1ps
+
+module bit3_tb;
+    reg clk, updown;
+    wire QA, QB, QC;
+
+    // Instantiate the DUT (Device Under Test)
+    bit3 DUT (
+        .updown(updown), 
+        .CLKP(clk), 
+        .QA(QA), 
+        .QB(QB), 
+        .QC(QC)
+    );
+
+    // Clock Generation (Period = 10 time units)
+    always #5 clk = ~clk;
+
+    initial begin
+        // Initialize inputs
+        clk = 0;
+        updown = 1;  // Start counting UP
+        
+        #100 updown = 0; // Switch to counting DOWN
+        #100 updown = 1; // Switch back to counting UP
+        #100 $stop; // End simulation
+    end
+endmodule

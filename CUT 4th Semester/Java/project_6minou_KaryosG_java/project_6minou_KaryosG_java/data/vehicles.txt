@@ -1,0 +1,8 @@
+EconomyCar|EC101|Toyota|Yaris|2021|4
+EconomyCar|EC102|Hyundai|i20|2022|5
+SUV|SV201|Nissan|Qashqai|2020|5
+SUV|SV202|Kia|Sorento|2023|7
+Convertible|CV301|Mazda|MX-5|2021|2
+Convertible|CV302|BMW|Z4|2022|4
+LuxuryCar|LX401|Mercedes|E-Class|2023|4
+LuxuryCar|LX402|Audi|A6|2021|5

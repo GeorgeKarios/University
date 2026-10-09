@@ -1,0 +1,12 @@
+
+State Machine - |ex1|current_state
+Name current_state.State_I current_state.State_H current_state.State_G current_state.State_F current_state.State_E current_state.State_D current_state.State_C current_state.State_B current_state.State_A 
+current_state.State_A 0 0 0 0 0 0 0 0 0 
+current_state.State_B 0 0 0 0 0 0 0 1 1 
+current_state.State_C 0 0 0 0 0 0 1 0 1 
+current_state.State_D 0 0 0 0 0 1 0 0 1 
+current_state.State_E 0 0 0 0 1 0 0 0 1 
+current_state.State_F 0 0 0 1 0 0 0 0 1 
+current_state.State_G 0 0 1 0 0 0 0 0 1 
+current_state.State_H 0 1 0 0 0 0 0 0 1 
+current_state.State_I 1 0 0 0 0 0 0 0 1 

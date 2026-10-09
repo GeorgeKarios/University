@@ -1,0 +1,8 @@
+module ex1 #(parameter N = 4) (
+    input [N-1:0] A, B,
+    input Cin,
+    output [N-1:0] S,
+    output Cout
+);
+    assign {Cout, S} = A + B + Cin;
+endmodule

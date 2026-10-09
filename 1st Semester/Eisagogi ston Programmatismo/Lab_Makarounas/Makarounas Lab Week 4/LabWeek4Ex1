@@ -1,0 +1,51 @@
+#include<stdio.h.>
+#include<math.h>
+
+int cubesum (int n1, int n2, int n3, int n4);
+float avgqrsum( int n1, int n2, int n3 , int n4);
+int inrange (int num);
+float equation(int n1, int n2, int n3, int n4, char cd);
+
+int main(){
+    int num1, num2, num3 ,num4, final;
+    char code;
+    printf("Input the data, numbers must be from 10 to 20!\n");
+    scanf(" %c %d %d %d %d", &code, &num1, &num2, &num3, &num4);
+    if ((code!='S')&&(code!='C')&&(code!='A'))
+        printf("INVALID FUNCTION DATA\n");
+    if (inrange(num1)==0)
+        printf("INVALID 1st NUMBER DATA\n");
+    if (inrange(num2)==0)
+        printf("INVALID  2nd NUMBER DATA\n");
+    if (inrange(num3)==0)
+        printf("INVALID 3rd NUMBER DATA\n");
+    if (inrange(num4)==0)
+        printf("INVALID 4th NUMBER DATA\n");
+    equation(int n1, int n2, int n3, int n4, char cd);
+
+}
+
+int inrange(int num){
+    if (num<10 && num>20)
+        return 0;  
+    return 1;               
+}                           //checks if the numbers  that are being inputed are correct
+
+float avgsqrsum(int n1, int n2, int n3, int n4){
+    return ((n1*n1)+(n2*n2)+(n3*n3)+(n4*n4)); 
+}                                                  //calculates the sum of the squares
+
+int cubesum(int n1, int n2, int n3, int n4){
+    return (pow(n1,3)+pow(n2,3)+pow(n3,3)+pow(n4,3));
+}                              
+
+float equation(int n1, int n2, int n3, int n4, char cd){
+    switch (cd){
+        case 'S': printf("SUM OF THE SQUARES: %f", avgsqrsum( n1, n2, n3, n4));
+             break;
+        case 'C': printf("SUM OF THE CUBES : %d", cubesum(n1, n2, n3,n4));
+             break;
+        case 'A': printf("AVERAGE OF THE SQUARES: %f", (avgsqrsum(n1, n2, n3, n4)/4);
+             break;
+    }
+}

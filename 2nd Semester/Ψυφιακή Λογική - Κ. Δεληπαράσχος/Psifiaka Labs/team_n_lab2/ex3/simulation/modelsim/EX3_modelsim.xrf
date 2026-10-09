@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, U:/teamn_lab2/ex3/EX3.bdf
+source_file = 1, U:/teamn_lab2/ex3/Waveform.vwf
+source_file = 1, U:/teamn_lab2/ex3/db/EX3.cbx.xml
+design_name = EX3
+instance = comp, \A~I\, A, EX3, 1
+instance = comp, \B~I\, B, EX3, 1
+instance = comp, \C~I\, C, EX3, 1
+instance = comp, \inst6~0\, inst6~0, EX3, 1
+instance = comp, \inst2~0\, inst2~0, EX3, 1
+instance = comp, \D~I\, D, EX3, 1
+instance = comp, \inst8~0\, inst8~0, EX3, 1
+instance = comp, \F~I\, F, EX3, 1
+instance = comp, \F1~I\, F1, EX3, 1
+instance = comp, \F2~I\, F2, EX3, 1
+instance = comp, \F3~I\, F3, EX3, 1
+instance = comp, \F4~I\, F4, EX3, 1

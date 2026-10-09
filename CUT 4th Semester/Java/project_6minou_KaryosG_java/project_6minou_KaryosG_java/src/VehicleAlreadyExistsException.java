@@ -1,0 +1,5 @@
+public class VehicleAlreadyExistsException extends Exception {
+    public VehicleAlreadyExistsException(String minima) {
+        super(minima);
+    }
+}

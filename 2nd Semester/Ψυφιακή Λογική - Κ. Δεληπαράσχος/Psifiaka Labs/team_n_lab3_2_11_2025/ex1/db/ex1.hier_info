@@ -1,0 +1,26 @@
+|ex1_with_blocks
+pin_name3 <= ex1:HA2.S
+in_A => ex1:HA1.A
+in_B => ex1:HA1.B
+in_C => ex1:HA2.B
+pin_name4 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ex1_with_blocks|ex1:HA2
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst1.IN0
+B => inst.IN0
+A => inst1.IN1
+A => inst4.IN1
+S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ex1_with_blocks|ex1:HA1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst1.IN0
+B => inst.IN0
+A => inst1.IN1
+A => inst4.IN1
+S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,7 @@
+Karyos Georgios 30738 
+Stylianos Farmakas 30833
+Commands gia na trexei to programma:
+
+
+gcc Ergasia_Prog_Systimaton.c -o ergasia
+./ergasia

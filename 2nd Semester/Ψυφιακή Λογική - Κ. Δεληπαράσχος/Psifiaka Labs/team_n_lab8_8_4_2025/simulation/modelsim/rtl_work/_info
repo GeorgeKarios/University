@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dU:\2nd Semester\Psifiaki_logiki\team_n_lab8_8_4_2025\simulation\modelsim
+vex1
+Ig9UbeP7@hP_^^_echc>m@1
+Vk3K9zlPZYg]L:00He=WE`3
+Z1 dU:\2nd Semester\Psifiaki_logiki\team_n_lab8_8_4_2025\simulation\modelsim
+w1744112250
+8U:/2nd Semester/Psifiaki_logiki/team_n_lab8_8_4_2025/ex1.v
+FU:/2nd Semester/Psifiaki_logiki/team_n_lab8_8_4_2025/ex1.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 zC_Ugm7cd20EXI>3EcZZb2
+!s85 0
+!s108 1744112293.009000
+!s107 U:/2nd Semester/Psifiaki_logiki/team_n_lab8_8_4_2025/ex1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/2nd Semester/Psifiaki_logiki/team_n_lab8_8_4_2025|U:/2nd Semester/Psifiaki_logiki/team_n_lab8_8_4_2025/ex1.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work {+incdir+U:/2nd Semester/Psifiaki_logiki/team_n_lab8_8_4_2025} -O0
+vex1_tb
+!i10b 1
+!s100 R6VBTfV>K=KaQBSJ0n;9[0
+IzD60N1_jS=g@C77@;AZ8D0
+Va5LHme^k5_62GDYQgz@e53
+R1
+w1744112326
+8U:/2nd Semester/Psifiaki_logiki/team_n_lab8_8_4_2025/ex1_tb.v
+FU:/2nd Semester/Psifiaki_logiki/team_n_lab8_8_4_2025/ex1_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1744112293.947000
+!s107 U:/2nd Semester/Psifiaki_logiki/team_n_lab8_8_4_2025/ex1_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/2nd Semester/Psifiaki_logiki/team_n_lab8_8_4_2025|U:/2nd Semester/Psifiaki_logiki/team_n_lab8_8_4_2025/ex1_tb.v|
+!s101 -O0
+R3
+R4

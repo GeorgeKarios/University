@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\em.karayiannas\Desktop\teamm_lab7\simulation\modelsim
+vaccumulator_tb
+!i10b 1
+!s100 TW@9m^[Pk^;jVA^I1gB]C2
+Ig3VAY`IK@PXFSASVc0bej1
+Vdz:?k3=6_9D8W=zIf]K621
+Z1 dC:\Users\em.karayiannas\Desktop\teamm_lab7\simulation\modelsim
+w1741694867
+8C:/Users/em.karayiannas/Desktop/teamm_lab7/accumulator_tb.v
+FC:/Users/em.karayiannas/Desktop/teamm_lab7/accumulator_tb.v
+L0 3
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1741695247.284000
+!s107 C:/Users/em.karayiannas/Desktop/teamm_lab7/accumulator_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/em.karayiannas/Desktop/teamm_lab7|C:/Users/em.karayiannas/Desktop/teamm_lab7/accumulator_tb.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/em.karayiannas/Desktop/teamm_lab7 -O0
+vex1
+I6NhF=>db5@6^T[ZeCj[J01
+VH=h:VG;X8o__W3?W5g]E01
+R1
+w1741694431
+8C:/Users/em.karayiannas/Desktop/teamm_lab7/ex1.v
+FC:/Users/em.karayiannas/Desktop/teamm_lab7/ex1.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+!s100 DMOb8PS8Y9L8ZdRB9b:2G2
+!s85 0
+!s108 1741695247.205000
+!s107 C:/Users/em.karayiannas/Desktop/teamm_lab7/ex1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/em.karayiannas/Desktop/teamm_lab7|C:/Users/em.karayiannas/Desktop/teamm_lab7/ex1.v|
+!s101 -O0
+R4

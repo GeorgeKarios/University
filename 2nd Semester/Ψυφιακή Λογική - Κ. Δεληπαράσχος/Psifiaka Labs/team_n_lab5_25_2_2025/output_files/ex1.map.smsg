@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at ex1.v(4): object "Q" differs only in case from object "q" in the same scope
+Info (10281): Verilog HDL Declaration information at ex1_tb.v(3): object "Q" differs only in case from object "q" in the same scope

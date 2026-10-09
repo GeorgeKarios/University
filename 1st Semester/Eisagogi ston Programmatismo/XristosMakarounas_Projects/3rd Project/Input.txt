@@ -1,0 +1,444 @@
+Enter your choice:
+1 - Create a blank list
+2 - Insert Data 1
+Blank Binary List Created.
+
+Do you want to insert data now? (Y or N): Y
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+450
+
+ENTER AMOUNT OF PURCHASE: 629.13
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):Y
+
+ENTER CUSTOMER NAME:TURBO FERRARI
+
+ENTER CUSTOMER CREDIT LIMIT:900
+
+DEAR TURBO FERRARI,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER: 
+ 400
+
+ENTER AMOUNT OF PURCHASE:  211.18
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):Y
+
+ENTER CUSTOMER NAME:MARY JANE SMITH 
+
+ENTER CUSTOMER CREDIT LIMIT:500
+
+DEAR MARY JANE SMITH ,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 500 
+
+ENTER AMOUNT OF PURCHASE: 663.25
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):Y
+
+ENTER CUSTOMER NAME:JIM JAY JONES 
+
+ENTER CUSTOMER CREDIT LIMIT:750.00
+
+DEAR JIM JAY JONES ,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 100
+
+ENTER AMOUNT OF PURCHASE: 708.35
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):Y
+
+ENTER CUSTOMER NAME:ELIZABETH CROWLEY
+
+ENTER CUSTOMER CREDIT LIMIT:1000
+
+DEAR ELIZABETH CROWLEY,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 50
+
+ENTER AMOUNT OF PURCHASE: 15.10
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):Y
+
+ENTER CUSTOMER NAME:FELICITY BOWSER 
+
+ENTER CUSTOMER CREDIT LIMIT:300.00
+
+DEAR FELICITY BOWSER,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 250
+
+ENTER AMOUNT OF PURCHASE: 50
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):Y
+
+ENTER CUSTOMER NAME:SAM PENNYWHISTLE
+
+ENTER CUSTOMER CREDIT LIMIT:250
+
+DEAR SAM PENNYWHISTLE,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 350
+
+ENTER AMOUNT OF PURCHASE: 495
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):y
+
+ENTER CUSTOMER NAME:500
+
+ENTER CUSTOMER CREDIT LIMIT:500
+
+DEAR 500,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 550 
+
+ENTER AMOUNT OF PURCHASE: 0
+
+INVALID PURCHASE AMOUNT, RE-ENTER PURCHASE
+1
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):Y
+
+ENTER CUSTOMER NAME:FRANK GRICHLEY 
+
+ENTER CUSTOMER CREDIT LIMIT: 300.00
+
+DEAR FRANK GRICHLEY ,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 150
+
+ENTER AMOUNT OF PURCHASE: 311.12
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):y
+
+ENTER CUSTOMER NAME:DAISY DANDELION  
+
+ENTER CUSTOMER CREDIT LIMIT:500.00
+
+DEAR DAISY DANDELION  ,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 200
+
+ENTER AMOUNT OF PURCHASE: 53.2
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):y
+
+ENTER CUSTOMER NAME:BILL COSBY 
+
+ENTER CUSTOMER CREDIT LIMIT:500
+
+DEAR BILL COSBY ,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 650
+
+ENTER AMOUNT OF PURCHASE: 99.18
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):Y
+
+ENTER CUSTOMER NAME:LOUIS LACKLUSTER
+
+ENTER CUSTOMER CREDIT LIMIT:100
+
+DEAR LOUIS LACKLUSTER,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 600
+
+ENTER AMOUNT OF PURCHASE: 110
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):y
+
+ENTER CUSTOMER NAME:JANE SEYMOUR  
+
+ENTER CUSTOMER CREDIT LIMIT:200
+
+DEAR JANE SEYMOUR,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ -1
+
+NEGATIVE ACCOUNT NUMBER ENTERED, CLOSING PROGRAM.
+
+STARTING STATE OF ACCOUNTS:
+=========================================
+Name:               Account #:Balance:  Credit Limit:
+=========================================
+No accounts exist in the system.
+
+ENDING STATE OF ACCOUNTS:
+
+EXISTING ACCOUNTS IN THE SYSTEM:
+=========================================
+Name:               Account #:    Balance:    Credit Limit:
+=========================================
+FELICITY BOWSER     50            15.10       300.00
+ELIZABETH CROWLEY   100           708.35      1000.00
+DAISY DANDELION     150           311.12      500.00
+BILL COSBY          200           53.20       500.00
+SAM PENNYWHISTLE    250           50.00       250.00
+500                 350           495.00      500.00
+MARY JANE SMITH     400           211.18      500.00
+TURBO FERRARI       450           629.13      900.00
+JIM JAY JONES       500           663.25      750.00
+FRANK GRICHLEY      550           1.00        300.00
+JANE SEYMOUR        600           110.00      200.00
+LOUIS LACKLUSTER    650           99.18       100.00
+=========================================
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+Enter your choice:
+1 - Create a blank list
+2 - Insert Data2
+
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+700
+
+ENTER AMOUNT OF PURCHASE: 23.08
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):N
+
+INVALID ACCOUNT NUMBER, RE-ENTER DATA:
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER: 
+ 750
+
+ENTER AMOUNT OF PURCHASE: 56.20
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):y
+
+ENTER CUSTOMER NAME:CHIRS BIGBOTTON
+
+ENTER CUSTOMER CREDIT LIMIT:200
+
+DEAR CHIRS BIGBOTTON,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER: 
+ 800
+
+ENTER AMOUNT OF PURCHASE: 259.95
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):y
+
+ENTER CUSTOMER NAME:MARY CONTRARY
+
+ENTER CUSTOMER CREDIT LIMIT:200
+
+DEAR MARY CONTRARY,
+WE CANNOT AUTHORIZE THIS PURCHASE AT THIS TIME AS IT
+ WOULD PUT YOU 59.95 euro OVER YOUR CREDIT LIMIT.
+
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 200
+
+ENTER AMOUNT OF PURCHASE: 50
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):Y
+
+ENTER CUSTOMER NAME:BILL COSBY
+
+ENTER CUSTOMER CREDIT LIMIT:500
+
+DEAR BILL COSBY,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ -2
+
+NEGATIVE ACCOUNT NUMBER ENTERED, CLOSING PROGRAM.
+
+STARTING STATE OF ACCOUNTS:
+=========================================
+Name:               Account #:    Balance:    Credit Limit:
+=========================================
+No accounts exist in the system.
+
+ENDING STATE OF ACCOUNTS:
+
+EXISTING ACCOUNTS IN THE SYSTEM:
+=========================================
+Name:               Account #:    Balance:    Credit Limit:
+=========================================
+BILL COSBY          200           50.00       500.00
+CHIRS BIGBOTTON     750           56.20       200.00
+MARY CONTRARY       800           0.00        200.00
+=========================================
+
+//
+
+Enter your choice:
+1 - Create a blank list
+2 - Insert Data 2
+
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER: 
+ 200
+
+ENTER AMOUNT OF PURCHASE: 54
+
+ENTER CUSTOMER NAME TO AUTHENTICATE: BILL COSBY
+
+Authentication successful! Welcome back, BILL COSBY.
+
+DEAR BILL COSBY,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER: 
+ -2
+
+NEGATIVE ACCOUNT NUMBER ENTERED, CLOSING PROGRAM.
+
+STARTING STATE OF ACCOUNTS:
+=========================================
+Name:               Account #:    Balance:    Credit Limit:
+=========================================
+BILL COSBY          200           50.00       500.00
+CHIRS BIGBOTTON     750           56.20       200.00
+MARY CONTRARY       800           0.00        200.00
+=========================================
+
+ENDING STATE OF ACCOUNTS:
+
+EXISTING ACCOUNTS IN THE SYSTEM:
+=========================================
+Name:               Account #:    Balance:    Credit Limit:
+=========================================
+BILL COSBY          200           104.00      500.00
+CHIRS BIGBOTTON     750           56.20       200.00
+MARY CONTRARY       800           0.00        200.00
+=========================================
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Enter your choice:
+1 - Create a blank list
+2 - Insert Data 2
+
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 74
+ACCOUNT NUMBERS MUST BE MULTIPLES OF 50.
+
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 900
+
+ENTER AMOUNT OF PURCHASE: -4
+
+INVALID PURCHASE AMOUNT, RE-ENTER PURCHASE
+ 5
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):N
+
+INVALID ACCOUNT NUMBER, RE-ENTER DATA:
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ 900
+
+ENTER AMOUNT OF PURCHASE: 5
+
+IS THIS A NEW ACCOUNT NUMBER? (Y OR N):Y
+
+ENTER CUSTOMER NAME:karios
+
+ENTER CUSTOMER CREDIT LIMIT: -2
+
+DEAR karios,
+WE CANNOT AUTHORIZE THIS PURCHASE AT THIS TIME AS IT
+ WOULD PUT YOU 7.00 euro OVER YOUR CREDIT LIMIT.
+
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+  750
+
+ENTER AMOUNT OF PURCHASE: 9
+
+ENTER CUSTOMER NAME TO AUTHENTICATE: CHIRS BIGBOTTON
+
+Authentication successful! Welcome back, CHIRS BIGBOTTON.
+
+DEAR CHIRS BIGBOTTON,
+THANK YOU FOR THE BUSINESS.
+
+(to exit input a Negative Num.)
+(Acc. Num. must be a multiple of 50)
+ ENTER ACCOUNT NUMBER:
+ -2
+
+NEGATIVE ACCOUNT NUMBER ENTERED, CLOSING PROGRAM.
+
+STARTING STATE OF ACCOUNTS:
+=========================================
+Name:               Account #:    Balance:    Credit Limit:
+=========================================
+BILL COSBY          200           104.00      500.00
+CHIRS BIGBOTTON     750           56.20       200.00
+MARY CONTRARY       800           0.00        200.00
+=========================================
+
+ENDING STATE OF ACCOUNTS:
+
+EXISTING ACCOUNTS IN THE SYSTEM:
+=========================================
+Name:               Account #:    Balance:    Credit Limit:
+=========================================
+BILL COSBY          200           104.00      500.00
+CHIRS BIGBOTTON     750           65.20       200.00
+MARY CONTRARY       800           0.00        200.00
+karios              900           0.00        -2.00
+=========================================

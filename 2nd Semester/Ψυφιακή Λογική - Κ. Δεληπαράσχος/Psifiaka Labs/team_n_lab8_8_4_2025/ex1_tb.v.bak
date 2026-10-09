@@ -1,0 +1,49 @@
+`timescale 1ns / 1ps
+
+module myFSM_tb;
+
+    reg w;
+    reg clk;
+    reg rst;
+    wire z;
+    wire [8:0] state;
+
+    myFSM uut (
+        .w(w),
+        .clk(clk),
+        .rst(rst),
+        .z(z),
+        .state(state)
+    );
+
+    always begin
+        #10 clk = ~clk;
+    end
+
+    initial begin
+        clk = 0;
+        rst = 1;
+        w = 0;
+
+        #20 rst = 0;
+
+        w = 1; #40;  // Apply w = 1 for 4 clock cycles (4 consecutive 1's)
+        w = 0; #40;  // Apply w = 0 for 4 clock cycles (4 consecutive 0's)
+
+        w = 1; #10;   // Mixed sequence (1)
+        w = 0; #10;   // Mixed sequence (0)
+        w = 1; #10;   // Mixed sequence (1)
+        w = 0; #10;   // Mixed sequence (0)
+
+        #10 rst = 1;
+        #20 rst = 0;
+        w = 1; #40;   // Apply w = 1 for 4 clock cycles after reset
+
+        #10 $finish;
+    end
+
+    initial begin
+        $monitor("At time %t, w = %b, z = %b, state = %b", $time, w, z, state);
+    end
+
+endmodule

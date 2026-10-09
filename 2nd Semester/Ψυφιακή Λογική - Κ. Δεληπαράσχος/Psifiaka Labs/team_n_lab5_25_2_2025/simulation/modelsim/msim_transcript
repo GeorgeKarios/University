@@ -1,0 +1,50 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do ex1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying C:\altera\13.0\modelsim_ase\win32aloem/modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+U:/2nd\ Semester/Psifiaki_logiki/team_n_lab5_25_2_2025 {U:/2nd Semester/Psifiaki_logiki/team_n_lab5_25_2_2025/ex1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ex1
+# 
+# Top level modules:
+# 	ex1
+# vlog -vlog01compat -work work +incdir+U:/2nd\ Semester/Psifiaki_logiki/team_n_lab5_25_2_2025 {U:/2nd Semester/Psifiaki_logiki/team_n_lab5_25_2_2025/bit3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bit3
+# 
+# Top level modules:
+# 	bit3
+# 
+# vlog -vlog01compat -work work +incdir+U:/2nd\ Semester/Psifiaki_logiki/team_n_lab5_25_2_2025 {U:/2nd Semester/Psifiaki_logiki/team_n_lab5_25_2_2025/bit3_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bit3_tb
+# 
+# Top level modules:
+# 	bit3_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  bit3_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps bit3_tb 
+# Loading work.bit3_tb
+# Loading work.bit3
+# Loading work.ex1
+# ** Warning: (vsim-3015) U:/2nd Semester/Psifiaki_logiki/team_n_lab5_25_2_2025/bit3.v(7): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'J'. The port definition is at: U:/2nd Semester/Psifiaki_logiki/team_n_lab5_25_2_2025/ex1.v(1).
+# 
+#         Region: /bit3_tb/DUT/FFA
+# ** Warning: (vsim-3015) U:/2nd Semester/Psifiaki_logiki/team_n_lab5_25_2_2025/bit3.v(7): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'CLK'. The port definition is at: U:/2nd Semester/Psifiaki_logiki/team_n_lab5_25_2_2025/ex1.v(1).
+# 
+#         Region: /bit3_tb/DUT/FFA
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module bit3_tb at U:/2nd Semester/Psifiaki_logiki/team_n_lab5_25_2_2025/bit3_tb.v line 26
+# Simulation Breakpoint: Break in Module bit3_tb at U:/2nd Semester/Psifiaki_logiki/team_n_lab5_25_2_2025/bit3_tb.v line 26
+# MACRO ./ex1_run_msim_rtl_verilog.do PAUSED at line 18
